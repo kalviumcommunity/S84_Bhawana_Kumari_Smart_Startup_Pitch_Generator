@@ -14,6 +14,19 @@ Feature	Implementation
 📦 Structured Output	Return data like: { "Problem": ..., "Solution": ..., "Target Market": ..., "SWOT": { ... } }
 🔌 Function Calling	Trigger tools like: generatePitchDeck(slideCount), summarizeIdea(), createPitchVideo(script)
 
+🚀 Key Features
+📄 Upload Business Idea: Users can submit their startup briefs or business plans as text or PDF.
+
+🔍 Retrieval-Augmented Generation (RAG): The app intelligently pulls relevant insights from uploaded files and background data to improve the pitch.
+
+🧠 Smart Prompting: Role-based prompts simulate an expert startup mentor to guide and refine the pitch.
+
+📦 Structured Output: Returns a clean JSON or visual format for key pitch sections — Problem, Solution, Market, etc.
+
+🔌 Function Calling: Includes custom actions like generatePitchDeck(), summarizeIdea(), and createSWOT() to automate content generation.
+
+📤 Export Options: Users can download the pitch deck outline or save structured content for further editing.
+
 🧾 Example User Flow:
 User uploads a 2-page business idea document.
 
@@ -38,14 +51,18 @@ Calls generatePDF() function to export a pitch deck.
 
 🚀 Hackathon or startup pitch participants
 
-🧰 Suggested Tech Stack:
-Layer	Tech
-Frontend	React + Tailwind CSS
-Backend	Node.js / Express
-LLM API	OpenAI GPT-4 / Claude / Gemini
-RAG Layer	LangChain + Chroma / Pinecone
-Auth & DB	Firebase or MongoDB
-File Handling	PDF upload + parsing with pdf-parse
+🧰 Tech Stack
+Frontend: React + Tailwind CSS
+
+Backend: Node.js + Express
+
+LLM API: OpenAI GPT-4 (with function calling and structured output)
+
+RAG Layer: LangChain + ChromaDB or Pinecone
+
+Authentication: (Optional) Firebase Auth or JWT
+
+File Parsing: pdf-parse, docx-parser (optional)
 
 💡 Bonus Ideas:
 Integrate AI voice to read the pitch (using ElevenLabs)
