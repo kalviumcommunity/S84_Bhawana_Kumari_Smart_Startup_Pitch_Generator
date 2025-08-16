@@ -71,4 +71,18 @@ Add "investor review simulation" with scoring
 
 Track progress or store previous versions
 
+## Zero-Shot Prompting in Smart Startup Pitch Generator
+
+Zero-Shot Prompting allows the AI to generate high-quality outputs without training examples, using only a well-crafted prompt.
+
+### How it works in this project:
+1. User enters a startup idea.
+2. The prompt tells the AI exactly what sections to include in the pitch.
+3. AI generates a full business pitch instantly.
+
+### Run it:
+```bash
+node zeroShotPitch.js
+
+
 
