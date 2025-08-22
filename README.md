@@ -82,7 +82,8 @@ Zero-Shot Prompting allows the AI to generate high-quality outputs without train
 
 ### Run it:
 ```bash
-node zeroShotPitch.js
+node zeroShotPitch.python
+
 
 
 
