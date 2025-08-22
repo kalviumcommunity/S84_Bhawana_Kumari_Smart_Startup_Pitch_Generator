@@ -84,6 +84,37 @@ Zero-Shot Prompting allows the AI to generate high-quality outputs without train
 ```bash
 node zeroShotPitch.python
 
+🔥 Temperature Parameter in the Project
+
+In this project, we use the temperature parameter when generating startup pitches with the LLaMA model.
+
+What is Temperature?
+
+The temperature controls the creativity vs. determinism of the AI’s responses:
+
+Low values (0.0 – 0.3):
+
+More focused and deterministic output.
+
+The AI will pick the most likely words, leading to precise, predictable responses.
+
+Best for factual, technical, or professional explanations.
+
+Medium values (0.5 – 0.7):
+
+A balance between creativity and reliability.
+
+Generates slightly varied responses while staying relevant.
+
+Best for pitches, feedback, and analyses (this is what we use in the project).
+
+High values (0.8 – 1.0+):
+
+Very creative and diverse output.
+
+Responses may be less predictable, sometimes even off-topic.
+
+Useful for brainstorming ideas or exploring innovative angles.
 
 
 
